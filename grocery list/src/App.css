@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.list-container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1919ca;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  background-color: #391950;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.993);
+}
+
+.list-item input {
+  background-color: #2b163a;
+  border: none;
+  color: white;
+  padding: 5px;
+  width: 70%;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.delete-button, .edit-button {
+  background-color: #e1f436;
+}
+
+.delete-button:hover, .edit-button:hover {
+  background-color: #e3d61f;
+}
+
+.add-item-container {
+  margin: 20px;
+}
+
+.add-item-container input {
+  padding: 10px;
+  width: 180px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-item-container button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #6a0dad;
+}
+
+.delete-list-button {
+  margin-top: 20px;
+  background-color: #520702;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
